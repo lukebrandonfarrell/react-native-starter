@@ -37,7 +37,9 @@ export const loadingScreen = {
           component: {
             name: "Loading",
             options: {
-              ...topBarHidden
+              topBar: {
+                visible: false
+              }
             }
           }
         }

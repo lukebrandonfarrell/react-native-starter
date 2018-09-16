@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { View } from "react-native";
 import { Navigation } from "react-native-navigation";
+import PropTypes from "prop-types";
 /* Config - Configuration for our application */
 import { loadImages } from "../config";
 import { routes } from "../router";
